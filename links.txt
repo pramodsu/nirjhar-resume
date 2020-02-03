@@ -13,4 +13,6 @@ hifive-https://www.sifive.com/boards/hifive-unleashed
 
 data set-http://manikvarma.org/downloads/XC/XMLRepository.html
 
-oram -https://en.wikipedia.org/wiki/Oblivious_RAM
+oram -
+
+arduino uno-https://www.arduino.cc/en/Guide/ArduinoUno

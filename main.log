@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.12)  3 FEB 2020 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.12)  3 FEB 2020 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,7 +1106,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-<image.jpg, id=63, 99.4917pt x 127.9179pt>
+<image.jpg, id=66, 99.4917pt x 127.9179pt>
 File: image.jpg Graphic file (type jpg)
 <use image.jpg>
 Package pdftex.def Info: image.jpg  used on input line 261.
@@ -1130,7 +1130,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  30978 strings out of 492648
  634105 string characters out of 6132015
- 738524 words of memory out of 5000000
+ 739524 words of memory out of 5000000
  34468 multiletter control sequences out of 15000+600000
  532882 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1140,10 +1140,10 @@ Here is how much of TeX's memory you used:
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 262035 bytes).
+Output written on main.pdf (1 page, 262160 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
