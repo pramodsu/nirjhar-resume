@@ -1,0 +1,16 @@
+pramod- https://www.cse.iitk.ac.in/users/spramod/
+
+piyush - \href{https://www.cse.iitk.ac.in/users/piyush/}
+
+
+CRAFTML- https://github.com/NirjharRoy/CRAFTML
+
+Dropbox- https://github.com/NirjharRoy/Secure-Dropbox-Testbed-using-GOLANG
+keystone-https://keystone-enclave.org/
+intel sgx-https://software.intel.com/en-us/sgx
+
+hifive-https://www.sifive.com/boards/hifive-unleashed
+
+data set-http://manikvarma.org/downloads/XC/XMLRepository.html
+
+oram -https://en.wikipedia.org/wiki/Oblivious_RAM
