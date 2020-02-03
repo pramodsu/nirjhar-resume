@@ -70,7 +70,7 @@
 {\large \textbf{\begin{tcolorbox}\textsc{\normalsize{Work Experience}}\end{tcolorbox}}}
 \vspace{-2mm}
 \begin{itemize}
-\item \textbf{Tata Consultancy Services: } I worked as an Assistant Systems Engineer Trainee in a production support team. The project client was \href{https://www.tatacliq.com/}{TATA CLIQ} and my role was to resolve various client and end user issues.
+\item \textbf{Tata Consultancy Services: } I worked as an Assistant Systems Engineer Trainee in a production support team. The project client was \href{https://www.tatacliq.com/}{TATA CLIQ} and my role was to resolve various client and end-user issues.
 \item \textbf{Duration :} 9 months(25/07/2016 - 09/05/2017)
 
 \end{itemize}
@@ -81,15 +81,16 @@
 {\large \textbf{\begin{tcolorbox}\textsc{\normalsize{Research Experience - MS Thesis}}\end{tcolorbox}}}
 \vspace{-2mm}
 \begin{itemize}
-\item \textbf{Securing Demand Paging in Enclave Platforms like \href{https://software.intel.com/en-us/sgx}{Intel SGX} and \href{https://keystone-enclave.org/}{Keystone}} \hfill\hfill(\textit{Jan '19 - Ongoing})\\\textit{Mentor : }\textbf{\href{https://www.cse.iitk.ac.in/users/spramod/}{Dr. Pramod Subramanyan}}, \textit{IIT Kanpur}
+\item \textbf{Securing Demand Paging in Enclave Platforms  and \href{https://keystone-enclave.org/}{Keystone}} \hfill\hfill(\textit{Jan '19 - Ongoing})\\\textit{Advisor: }\textbf{\href{https://www.cse.iitk.ac.in/users/spramod/}{Dr. Pramod Subramanyan}}, \textit{IIT Kanpur}
 \begin{itemize}
-    \item \textbf{Aim : }To use some memory access obfuscation algorithms like \href{https://en.wikipedia.org/wiki/Oblivious_RAM}{ORAMs} to prevent information leaks and side channel attacks during demand paging in enclave platforms like Intel SGX and \href{https://keystone-enclave.org/}{Keystone}. We will make our source code open source after our publication.
+    \item \textbf{Aim:} My research has focused on preventing information leakage via page faults in enclave platforms using Oblivious RAMs (\href{https://en.wikipedia.org/wiki/Oblivious_RAM}{ORAMs}). 
+    \item \textbf{Research Overview: } My research work has introduced new attacks and defences on demand paging in enclave platforms.
+        On the offensive side, my work shows that the current state-of-the-art for demand paging in enclaves (\href{https://dl.acm.org/doi/10.1145/3307650.3322265}{InvisiPage}, ISCA'19) leaks page reuse distances and these can be used to exfiltrate secrets from enclave applications.
+       On the defensive side, I have developed new algorithms based on the Ring ORAM cryptographic primitive to enable performant and secure demand paging in the runtime for the \href{https://keystone-enclave.org/}{Keystone} enclave platform.
+        Our works shows it is possible to be more secure \emph{and} more performant than the current state-of-the-art, InvisiPage.
 
-    \item \textbf{Present Work : }We are using \href{https://keystone-enclave.org/}{Keystone} to implement the page fault handlers and the algorithms. Our algorithm and the page fault handler runs successfully on a real RISCV processor(\href{https://www.sifive.com/boards/hifive-unleashed}{Hifive FU540}) with reasonable performance overheads. Our current progess is:-
-      \subitem - Extended keystone runtime to support naive demand paging as well as our secure demand page fault handlers.
-      \subitem - Implementation of new attack on a prior work (\href{https://dl.acm.org/doi/10.1145/3307650.3322265}{Invisipage}).
-      \subitem - We showed our implementation is more secure than \href{https://dl.acm.org/doi/10.1145/3307650.3322265}{Invisipage} with better performance.
-      \subitem - A detailed performance comparison of various oblivious demand paging algorithms(\href{https://en.wikipedia.org/wiki/Oblivious_RAM}{ORAMs}).
+       Our implementation has been tested and evaluated on a commercially-available RISC-V board (\href{https://www.sifive.com/boards/hifive-unleashed}{HiFive Unleashed}) and can be used to run unmodified Linux-based Keystone enclave applications on this hardware.
+       
 
 
 
@@ -111,6 +112,14 @@
 {\large \textbf{\begin{tcolorbox}\textsc{\normalsize{Key Projects}}\end{tcolorbox}}}
 \vspace{-2mm}
 \begin{itemize}
+                        %-------------Trace sim--------------
+
+
+\item \textbf{Trace Simulator}\hfill\hfill(\textit{May '19 - Dec '19})\\{\textit{Mentor : }}\textbf{\href{https://www.cse.iitk.ac.in/users/spramod/}{Dr. Pramod Subramanyan}}, \textit{IIT Kanpur}
+\begin{itemize}
+\item This is trace-based simulator for an applications page accesses, that implements support for a Path ORAM and Ring ORAM. 
+    We used it to optimize ORAM parameters, page replacement policies and performance vs. memory trade-offs for our enclave runtime.
+\end{itemize}
 
                       %-------------Encrypted Dropbox--------------
 
@@ -132,13 +141,6 @@
 
 \end{itemize}
 
-                        %-------------Trace sim--------------
-
-
-\item \textbf{Trace Simulator}\hfill\hfill(\textit{May '19 - Dec '19})\\{\textit{Mentor : }}\textbf{\href{https://www.cse.iitk.ac.in/users/spramod/}{Dr. Pramod Subramanyan}}, \textit{IIT Kanpur}
-\begin{itemize}
-\item Parsing memory access sequence trace of an application and apply various page replacement policies and memory obfuscation algorithms like \href{https://en.wikipedia.org/wiki/Oblivious_RAM}{ORAMs}. This greatly helps in the  study of page replacement policies and other statistics of an application execution.
-\end{itemize}
 
 
 
